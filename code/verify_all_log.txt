@@ -1,0 +1,195 @@
+
+=== Distance formula (Lemma 3.2) vs BFS, 8 <= n <= 200
+n=7: formula (4) fails for 2 pairs from u_0/v_0, e.g. [('v', 0, 'v', 2, 3, 4), ('v', 0, 'v', 5, 3, 4)] (expected: fails)
+distance formula verified for all 8 <= n <= 200
+--- done in 0s
+
+=== Generators W0, W3, W4, W* by BFS, all admissible n <= 3000
+W5 (all n)   n0=12: OK for every n up to 3000
+W0           n0=12: OK for every n up to 3000
+W3           n0=15: OK for every n up to 3000
+W4           n0=10: OK for every n up to 3000
+--- done in 86s
+
+=== Exact values and bases for 7 <= n <= 30 (exhaustive search)
+n=7: mdim=4  basis=u_1 u_3 u_5 v_6
+n=8: mdim=4  basis=u_1 u_3 u_6 v_4
+n=9: mdim=4  basis=u_1 u_4 u_7 v_2
+n=10: mdim=4  basis=u_1 u_2 u_4 u_8
+n=11: mdim=5  basis=u_1 u_2 u_3 v_7 v_8
+n=12: mdim=4  basis=u_1 u_3 u_7 v_12
+n=13: mdim=4  basis=u_1 u_3 u_7 u_10
+n=14: mdim=4  basis=u_1 u_4 v_9 v_10
+n=15: mdim=4  basis=u_1 u_5 u_10 v_11
+n=16: mdim=4  basis=u_1 u_3 v_8 v_12
+n=17: mdim=4  basis=u_1 u_6 v_11 v_13
+n=18: mdim=4  basis=u_1 u_5 v_9 v_10
+n=19: mdim=5  basis=u_1 u_2 u_6 u_11 u_15
+n=20: mdim=5  basis=u_1 u_2 u_6 v_5 v_12
+n=21: mdim=4  basis=u_1 u_9 v_13 v_18
+n=22: mdim=4  basis=u_1 u_6 v_11 v_18
+n=23: mdim=5  basis=u_1 u_3 u_10 v_19 v_20
+n=24: mdim=4  basis=u_1 u_8 v_13 v_20
+n=25: mdim=5  basis=u_1 u_2 u_10 v_11 v_16
+n=26: mdim=5  basis=u_1 u_2 u_12 v_3 v_13
+n=27: mdim=4  basis=u_1 u_12 v_16 v_24
+n=28: mdim=4  basis=u_1 u_10 v_14 v_25
+n=29: mdim=5  basis=u_1 u_3 u_15 v_16 v_20
+n=30: mdim=4  basis=u_1 u_12 v_16 v_27
+--- done in 28s
+
+=== Tables valid for all k (Section 6.4)
+W0 n=6k+0: last crossing kappa0 = 8.00 (k < 27); min slope gap = 1/2, max period = 2, margin 30: geometry OK; table = distance formula for every k in [4, 119]: True  => holds for ALL k >= 4
+W3 n=6k+3: last crossing kappa0 = 7.83 (k < 24); min slope gap = 1/2, max period = 2, margin 30: geometry OK; table = distance formula for every k in [4, 116]: True  => holds for ALL k >= 4
+W4 n=6k+4: last crossing kappa0 = 6.67 (k < 21); min slope gap = 1/2, max period = 2, margin 30: geometry OK; table = distance formula for every k in [4, 113]: True  => holds for ALL k >= 4
+W5 n=6k+1: last crossing kappa0 = 7.50 (k < 24); min slope gap = 1/2, max period = 2, margin 30: geometry OK; table = distance formula for every k in [4, 116]: True  => holds for ALL k >= 4
+W5 n=6k+2: last crossing kappa0 = 7.17 (k < 24); min slope gap = 1/2, max period = 2, margin 30: geometry OK; table = distance formula for every k in [4, 116]: True  => holds for ALL k >= 4
+W5 n=6k+5: last crossing kappa0 = 7.17 (k < 24); min slope gap = 1/2, max period = 2, margin 30: geometry OK; table = distance formula for every k in [4, 116]: True  => holds for ALL k >= 4
+--- done in 435s
+
+=== Tables + exact distinctness certificates (Table 2)
+W0 0 {'rows': 66, 'pairs': 2203, 'rank2_exact': 1142, 'rank_le1': {'same row, forces s = t': 58, 'inconsistent': 945, 'k forced to an impossible value': 55, 'box misses line for all k': 1, 'k fixed; exact enumeration': 2}}
+W3 3 {'rows': 68, 'pairs': 2336, 'rank2_exact': 1192, 'rank_le1': {'same row, forces s = t': 58, 'inconsistent': 959, 'k forced to an impossible value': 126, 'box misses line for all k': 1}}
+W4 4 {'rows': 60, 'pairs': 1820, 'rank2_exact': 781, 'rank_le1': {'same row, forces s = t': 50, 'inconsistent': 868, 'k forced to an impossible value': 121}}
+W5 1 {'rows': 73, 'pairs': 2691, 'rank2_exact': 1419, 'rank_le1': {'same row, forces s = t': 63, 'inconsistent': 1022, 'k forced to an impossible value': 187}}
+W5 2 {'rows': 68, 'pairs': 2340, 'rank2_exact': 1440, 'rank_le1': {'same row, forces s = t': 62, 'inconsistent': 735, 'k forced to an impossible value': 103}}
+W5 5 {'rows': 74, 'pairs': 2765, 'rank2_exact': 1553, 'rank_le1': {'same row, forces s = t': 64, 'inconsistent': 962, 'k forced to an impossible value': 186}}
+wrote output/appendix_tables.tex and output/distinct_stats.json (compare with ../tex/appendix_tables.tex and distinct_stats.json)
+--- done in 1s
+
+=== Negative controls (bases fail on the wrong residues; 3-sets fail)
+W0 used for n = 6k+1 (mdim = 5 there): certificate procedure finds 5 colliding row pairs; BFS: not a mixed generator for 11/11 tested n  -> OK
+W4 used for n = 6k+5 (mdim = 5 there): certificate procedure finds 4 colliding row pairs; BFS: not a mixed generator for 11/11 tested n  -> OK
+a 3-set for n = 6k: certificate procedure finds 16 colliding row pairs; BFS: not a mixed generator for 11/11 tested n  -> OK
+negative controls passed
+--- done in 1s
+
+=== Exact search for mixed 4-sets, 7 <= n <= 40 (independent check, quick part)
+), ('u', 9), ('v', 13), ('v', 18)]; sets separating the hard-pair subset: 4 (0 of size < 4, extended)  (0s)
+n=22: mixed generator of size <= 4 EXISTS, e.g. [('u', 1), ('u', 18), ('v', 6), ('v', 13)]; sets separating the hard-pair subset: 44 (0 of size < 4, extended)  (0s)
+n=23: no mixed metric generator of size <= 4 (exhaustive, exact); sets separating the hard-pair subset: 0 (0 of size < 4, extended)  (0s)
+n=24: mixed generator of size <= 4 EXISTS, e.g. [('u', 1), ('u', 8), ('v', 13), ('v', 20)]; sets separating the hard-pair subset: 56 (0 of size < 4, extended)  (0s)
+n=25: no mixed metric generator of size <= 4 (exhaustive, exact); sets separating the hard-pair subset: 0 (0 of size < 4, extended)  (0s)
+n=26: no mixed metric generator of size <= 4 (exhaustive, exact); sets separating the hard-pair subset: 0 (0 of size < 4, extended)  (0s)
+n=27: mixed generator of size <= 4 EXISTS, e.g. [('u', 5), ('u', 16), ('v', 1), ('v', 20)]; sets separating the hard-pair subset: 4 (0 of size < 4, extended)  (0s)
+n=28: mixed generator of size <= 4 EXISTS, e.g. [('v', 1), ('v', 6), ('v', 19), ('v', 24)]; sets separating the hard-pair subset: 24 (0 of size < 4, extended)  (0s)
+n=29: no mixed metric generator of size <= 4 (exhaustive, exact); sets separating the hard-pair subset: 0 (0 of size < 4, extended)  (0s)
+n=30: mixed generator of size <= 4 EXISTS, e.g. [('v', 1), ('v', 16), ('v', 20), ('v', 21)]; sets separating the hard-pair subset: 68 (0 of size < 4, extended)  (0s)
+n=31: no mixed metric generator of size <= 4 (exhaustive, exact); sets separating the hard-pair subset: 0 (0 of size < 4, extended)  (0s)
+n=32: no mixed metric generator of size <= 4 (exhaustive, exact); sets separating the hard-pair subset: 0 (0 of size < 4, extended)  (0s)
+n=33: mixed generator of size <= 4 EXISTS, e.g. [('u', 16), ('u', 30), ('v', 1), ('v', 12)]; sets separating the hard-pair subset: 4 (0 of size < 4, extended)  (0s)
+n=34: mixed generator of size <= 4 EXISTS, e.g. [('u', 17), ('v', 1), ('v', 30), ('v', 31)]; sets separating the hard-pair subset: 20 (0 of size < 4, extended)  (0s)
+n=35: no mixed metric generator of size <= 4 (exhaustive, exact); sets separating the hard-pair subset: 0 (0 of size < 4, extended)  (0s)
+n=36: mixed generator of size <= 4 EXISTS, e.g. [('u', 3), ('u', 21), ('v', 1), ('v', 35)]; sets separating the hard-pair subset: 84 (0 of size < 4, extended)  (0s)
+n=37: no mixed metric generator of size <= 4 (exhaustive, exact); sets separating the hard-pair subset: 0 (0 of size < 4, extended)  (0s)
+n=38: no mixed metric generator of size <= 4 (exhaustive, exact); sets separating the hard-pair subset: 0 (0 of size < 4, extended)  (0s)
+n=39: mixed generator of size <= 4 EXISTS, e.g. [('u', 1), ('u', 18), ('v', 22), ('v', 36)]; sets separating the hard-pair subset: 4 (0 of size < 4, extended)  (0s)
+n=40: mixed generator of size <= 4 EXISTS, e.g. [('u', 20), ('v', 1), ('v', 3), ('v', 22)]; sets separating the hard-pair subset: 20 (0 of size < 4, extended)  (0s)
+--- done in 2s
+
+=== Shrinking lemma, every admissible block (Lemma 5.3)
+admissible blocks: 6080 tests, 0 mismatches; control (blocks meeting Z(S)): 7423/20408 break the correspondence
+shrinking lemma test passed
+--- done in 121s
+
+=== Window patterns and irregular set, k = 12..30 (Lemmas 5.1, 5.2)
+p=1: k in [12,30]: windows identical for all k; irregular set within [-5,12] U [3k-5,3k+15]
+p=2: k in [12,30]: windows identical for all k; irregular set within [-5,12] U [3k-5,3k+15]
+p=5: k in [12,30]: windows identical for all k; irregular set within [-5,12] U [3k-5,3k+15]
+--- done in 371s
+
+=== Controls: 4-sets satisfying L exist where mdim = 4
+n=24: A 4-SET EXISTS  (0s)
+n=27: A 4-SET EXISTS  (0s)
+n=28: A 4-SET EXISTS  (0s)
+n=30: A 4-SET EXISTS  (0s)
+n=34: A 4-SET EXISTS  (1s)
+n=40: A 4-SET EXISTS  (1s)
+--- done in 3s
+
+=== No 4-set satisfies L, n = 1,2,5 mod 6, 19 <= n <= 236 (Proposition 5.5, exact)
+ (exhaustive, exact)  (15s)
+n=131: no 4-set satisfies L (exhaustive, exact)  (18s)
+n=133: no 4-set satisfies L (exhaustive, exact)  (19s)
+n=134: no 4-set satisfies L (exhaustive, exact)  (17s)
+n=137: no 4-set satisfies L (exhaustive, exact)  (20s)
+n=139: no 4-set satisfies L (exhaustive, exact)  (21s)
+n=140: no 4-set satisfies L (exhaustive, exact)  (20s)
+n=143: no 4-set satisfies L (exhaustive, exact)  (24s)
+n=145: no 4-set satisfies L (exhaustive, exact)  (25s)
+n=146: no 4-set satisfies L (exhaustive, exact)  (22s)
+n=149: no 4-set satisfies L (exhaustive, exact)  (25s)
+n=151: no 4-set satisfies L (exhaustive, exact)  (26s)
+n=152: no 4-set satisfies L (exhaustive, exact)  (26s)
+n=155: no 4-set satisfies L (exhaustive, exact)  (30s)
+n=157: no 4-set satisfies L (exhaustive, exact)  (30s)
+n=158: no 4-set satisfies L (exhaustive, exact)  (28s)
+n=161: no 4-set satisfies L (exhaustive, exact)  (31s)
+n=163: no 4-set satisfies L (exhaustive, exact)  (35s)
+n=164: no 4-set satisfies L (exhaustive, exact)  (30s)
+n=167: no 4-set satisfies L (exhaustive, exact)  (35s)
+n=169: no 4-set satisfies L (exhaustive, exact)  (42s)
+n=170: no 4-set satisfies L (exhaustive, exact)  (34s)
+n=173: no 4-set satisfies L (exhaustive, exact)  (40s)
+n=175: no 4-set satisfies L (exhaustive, exact)  (44s)
+n=176: no 4-set satisfies L (exhaustive, exact)  (38s)
+n=179: no 4-set satisfies L (exhaustive, exact)  (43s)
+n=181: no 4-set satisfies L (exhaustive, exact)  (52s)
+n=182: no 4-set satisfies L (exhaustive, exact)  (46s)
+n=185: no 4-set satisfies L (exhaustive, exact)  (49s)
+n=187: no 4-set satisfies L (exhaustive, exact)  (56s)
+n=188: no 4-set satisfies L (exhaustive, exact)  (47s)
+n=191: no 4-set satisfies L (exhaustive, exact)  (56s)
+n=193: no 4-set satisfies L (exhaustive, exact)  (60s)
+n=194: no 4-set satisfies L (exhaustive, exact)  (51s)
+n=197: no 4-set satisfies L (exhaustive, exact)  (59s)
+n=199: no 4-set satisfies L (exhaustive, exact)  (65s)
+n=200: no 4-set satisfies L (exhaustive, exact)  (54s)
+n=203: no 4-set satisfies L (exhaustive, exact)  (64s)
+n=205: no 4-set satisfies L (exhaustive, exact)  (71s)
+n=206: no 4-set satisfies L (exhaustive, exact)  (59s)
+n=209: no 4-set satisfies L (exhaustive, exact)  (72s)
+n=211: no 4-set satisfies L (exhaustive, exact)  (81s)
+n=212: no 4-set satisfies L (exhaustive, exact)  (67s)
+n=215: no 4-set satisfies L (exhaustive, exact)  (78s)
+n=217: no 4-set satisfies L (exhaustive, exact)  (89s)
+n=218: no 4-set satisfies L (exhaustive, exact)  (74s)
+n=221: no 4-set satisfies L (exhaustive, exact)  (86s)
+n=223: no 4-set satisfies L (exhaustive, exact)  (94s)
+n=224: no 4-set satisfies L (exhaustive, exact)  (81s)
+n=227: no 4-set satisfies L (exhaustive, exact)  (92s)
+n=229: no 4-set satisfies L (exhaustive, exact)  (104s)
+n=230: no 4-set satisfies L (exhaustive, exact)  (88s)
+n=233: no 4-set satisfies L (exhaustive, exact)  (102s)
+n=235: no 4-set satisfies L (exhaustive, exact)  (116s)
+n=236: no 4-set satisfies L (exhaustive, exact)  (96s)
+--- done in 3124s
+
+ALL CHECKS COMPLETED
+
+=== (run separately) Shrinking lemma, single vertex, every block position (Lemma 5.3)
+p=1 k=13 w=u_1: admissible b: 29 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=13 w=v_1: admissible b: 29 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=14 w=u_1: admissible b: 35 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=14 w=v_1: admissible b: 35 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=15 w=u_1: admissible b: 41 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=15 w=v_1: admissible b: 41 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=20 w=u_1: admissible b: 71 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=20 w=v_1: admissible b: 71 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=2 k=13 w=u_1: admissible b: 28 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/46 break the correspondence
+p=2 k=13 w=v_1: admissible b: 28 (= n - 2(24+p)), mismatches 0; non-admissible b: 20/46 break the correspondence
+p=2 k=14 w=u_1: admissible b: 34 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/46 break the correspondence
+p=2 k=14 w=v_1: admissible b: 34 (= n - 2(24+p)), mismatches 0; non-admissible b: 20/46 break the correspondence
+p=2 k=15 w=u_1: admissible b: 40 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/46 break the correspondence
+p=2 k=15 w=v_1: admissible b: 40 (= n - 2(24+p)), mismatches 0; non-admissible b: 20/46 break the correspondence
+p=2 k=20 w=u_1: admissible b: 70 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/46 break the correspondence
+p=2 k=20 w=v_1: admissible b: 70 (= n - 2(24+p)), mismatches 0; non-admissible b: 20/46 break the correspondence
+p=5 k=13 w=u_1: admissible b: 25 (= n - 2(24+p)), mismatches 0; non-admissible b: 23/52 break the correspondence
+p=5 k=13 w=v_1: admissible b: 25 (= n - 2(24+p)), mismatches 0; non-admissible b: 26/52 break the correspondence
+p=5 k=14 w=u_1: admissible b: 31 (= n - 2(24+p)), mismatches 0; non-admissible b: 23/52 break the correspondence
+p=5 k=14 w=v_1: admissible b: 31 (= n - 2(24+p)), mismatches 0; non-admissible b: 26/52 break the correspondence
+p=5 k=15 w=u_1: admissible b: 37 (= n - 2(24+p)), mismatches 0; non-admissible b: 23/52 break the correspondence
+p=5 k=15 w=v_1: admissible b: 37 (= n - 2(24+p)), mismatches 0; non-admissible b: 26/52 break the correspondence
+p=5 k=20 w=u_1: admissible b: 67 (= n - 2(24+p)), mismatches 0; non-admissible b: 23/52 break the correspondence
+p=5 k=20 w=v_1: admissible b: 67 (= n - 2(24+p)), mismatches 0; non-admissible b: 26/52 break the correspondence
+exhaustive single-vertex shrinking test passed

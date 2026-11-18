@@ -1,0 +1,5 @@
+n=37: 52 4-sets satisfy the 63 types; mixed generators among them: 0; unseparated pairs by kind {'EV': 64, 'VV': 32}, by index gap {3: 4, 4: 32, 5: 40, 6: 20}; a 4-set satisfies the family with delta <= 5: True
+n=43: 72 4-sets satisfy the 63 types; mixed generators among them: 0; unseparated pairs by kind {'EV': 96, 'VV': 40}, by index gap {3: 4, 4: 40, 5: 60, 6: 32}; a 4-set satisfies the family with delta <= 5: True
+n=49: 96 4-sets satisfy the 63 types; mixed generators among them: 0; unseparated pairs by kind {'EV': 136, 'VV': 48}, by index gap {3: 4, 4: 48, 5: 84, 6: 48}; a 4-set satisfies the family with delta <= 5: True
+n=55: 124 4-sets satisfy the 63 types; mixed generators among them: 0; unseparated pairs by kind {'EV': 184, 'VV': 56}, by index gap {3: 4, 4: 56, 5: 112, 6: 68}; a 4-set satisfies the family with delta <= 5: True
+n=61: 156 4-sets satisfy the 63 types; mixed generators among them: 0; unseparated pairs by kind {'VV': 64, 'EV': 240}, by index gap {3: 4, 4: 64, 5: 144, 6: 92}; a 4-set satisfies the family with delta <= 5: True

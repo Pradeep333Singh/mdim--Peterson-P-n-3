@@ -1,0 +1,2 @@
+admissible blocks: 6080 tests, 0 mismatches; control (blocks meeting Z(S)): 7423/20408 break the correspondence
+shrinking lemma test passed

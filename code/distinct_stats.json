@@ -1,0 +1,65 @@
+{
+ "W0_0": {
+  "rows": 66,
+  "pairs": 2203,
+  "rank2_exact": 1142,
+  "rank_le1": {
+   "same row, forces s = t": 58,
+   "inconsistent": 945,
+   "k forced to an impossible value": 55,
+   "box misses line for all k": 1,
+   "k fixed; exact enumeration": 2
+  }
+ },
+ "W3_3": {
+  "rows": 68,
+  "pairs": 2336,
+  "rank2_exact": 1192,
+  "rank_le1": {
+   "same row, forces s = t": 58,
+   "inconsistent": 959,
+   "k forced to an impossible value": 126,
+   "box misses line for all k": 1
+  }
+ },
+ "W4_4": {
+  "rows": 60,
+  "pairs": 1820,
+  "rank2_exact": 781,
+  "rank_le1": {
+   "same row, forces s = t": 50,
+   "inconsistent": 868,
+   "k forced to an impossible value": 121
+  }
+ },
+ "W5_1": {
+  "rows": 73,
+  "pairs": 2691,
+  "rank2_exact": 1419,
+  "rank_le1": {
+   "same row, forces s = t": 63,
+   "inconsistent": 1022,
+   "k forced to an impossible value": 187
+  }
+ },
+ "W5_2": {
+  "rows": 68,
+  "pairs": 2340,
+  "rank2_exact": 1440,
+  "rank_le1": {
+   "same row, forces s = t": 62,
+   "inconsistent": 735,
+   "k forced to an impossible value": 103
+  }
+ },
+ "W5_5": {
+  "rows": 74,
+  "pairs": 2765,
+  "rank2_exact": 1553,
+  "rank_le1": {
+   "same row, forces s = t": 64,
+   "inconsistent": 962,
+   "k forced to an impossible value": 186
+  }
+ }
+}

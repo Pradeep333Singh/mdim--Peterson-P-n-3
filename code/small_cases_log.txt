@@ -1,0 +1,24 @@
+n=7: mdim=4  basis=u_1 u_3 u_5 v_6
+n=8: mdim=4  basis=u_1 u_3 u_6 v_4
+n=9: mdim=4  basis=u_1 u_4 u_7 v_2
+n=10: mdim=4  basis=u_1 u_2 u_4 u_8
+n=11: mdim=5  basis=u_1 u_2 u_3 v_7 v_8
+n=12: mdim=4  basis=u_1 u_3 u_7 v_12
+n=13: mdim=4  basis=u_1 u_3 u_7 u_10
+n=14: mdim=4  basis=u_1 u_4 v_9 v_10
+n=15: mdim=4  basis=u_1 u_5 u_10 v_11
+n=16: mdim=4  basis=u_1 u_3 v_8 v_12
+n=17: mdim=4  basis=u_1 u_6 v_11 v_13
+n=18: mdim=4  basis=u_1 u_5 v_9 v_10
+n=19: mdim=5  basis=u_1 u_2 u_6 u_11 u_15
+n=20: mdim=5  basis=u_1 u_2 u_6 v_5 v_12
+n=21: mdim=4  basis=u_1 u_9 v_13 v_18
+n=22: mdim=4  basis=u_1 u_6 v_11 v_18
+n=23: mdim=5  basis=u_1 u_3 u_10 v_19 v_20
+n=24: mdim=4  basis=u_1 u_8 v_13 v_20
+n=25: mdim=5  basis=u_1 u_2 u_10 v_11 v_16
+n=26: mdim=5  basis=u_1 u_2 u_12 v_3 v_13
+n=27: mdim=4  basis=u_1 u_12 v_16 v_24
+n=28: mdim=4  basis=u_1 u_10 v_14 v_25
+n=29: mdim=5  basis=u_1 u_3 u_15 v_16 v_20
+n=30: mdim=4  basis=u_1 u_12 v_16 v_27

@@ -1,0 +1,462 @@
+\begin{longtable}{lll}
+\caption{Mixed representations for $n\equiv 0 \pmod 6$. $W=\{u_{1}, u_{3k+1}, v_{3}, v_{5}\}$, $n=6k$.}\label{tab:W0}\\
+\hline Element & Range & $r(\cdot\,|\,W)$ \\ \hline
+\endfirsthead
+\hline Element & Range & $r(\cdot\,|\,W)$ \\ \hline
+\endhead
+$u_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(i-1,\ \frac{3k-i+7}{3},\ \frac{10-i}{3},\ \frac{10-i}{3})$ \\
+$u_i$ & $2 \le i \le 5,\ i \equiv 2 \pmod{3}$ & $(i-1,\ \frac{3k-i+11}{3},\ \frac{i+4}{3},\ \frac{8-i}{3})$ \\
+$u_i$ & $3 \le i \le 6,\ i \equiv 0 \pmod{3}$ & $(i-1,\ \frac{3k-i+9}{3},\ \frac{i}{3},\ \frac{12-i}{3})$ \\
+$u_i$ & $7 \le i \le 3k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i+5}{3},\ \frac{3k-i+7}{3},\ \frac{i+2}{3},\ \frac{i+2}{3})$ \\
+$u_i$ & $8 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{i+7}{3},\ \frac{3k-i+11}{3},\ \frac{i+4}{3},\ \frac{i-2}{3})$ \\
+$u_i$ & $9 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i+9}{3},\ \frac{3k-i+9}{3},\ \frac{i}{3},\ \frac{i}{3})$ \\
+$u_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i+7}{3},\ \frac{3k-i+5}{3},\ \frac{i+4}{3},\ \frac{i-2}{3})$ \\
+$u_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+9}{3},\ \frac{i-3k+3}{3},\ \frac{i}{3},\ \frac{i}{3})$ \\
+$u_i$ & $3k+1 \le i \le 3k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+7}{3},\ i-3k-1,\ \frac{i+2}{3},\ \frac{i+2}{3})$ \\
+$u_i$ & $3k+5 \le i \le 6k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-i+11}{3},\ \frac{i-3k+7}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i$ & $3k+6 \le i \le 6k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+9}{3},\ \frac{i-3k+9}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+12}{3})$ \\
+$u_i$ & $3k+7 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+7}{3},\ \frac{i-3k+5}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+10}{3})$ \\
+$u_i$ & $i = 6k-1$ & $(2,\ k+2,\ 3,\ 3)$ \\
+$u_i$ & $i = 6k$ & $(1,\ k+3,\ 2,\ 4)$ \\
+$v_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{i+2}{3},\ \frac{3k-i+4}{3},\ \frac{13-i}{3},\ \frac{13-i}{3})$ \\
+$v_i$ & $2 \le i \le 5,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{3k-i+8}{3},\ \frac{i+7}{3},\ \frac{5-i}{3})$ \\
+$v_i$ & $3 \le i \le 6,\ i \equiv 0 \pmod{3}$ & $(\frac{i+6}{3},\ \frac{3k-i+6}{3},\ \frac{i-3}{3},\ \frac{15-i}{3})$ \\
+$v_i$ & $7 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i+2}{3},\ \frac{3k-i+4}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$v_i$ & $8 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{3k-i+8}{3},\ \frac{i+7}{3},\ \frac{i-5}{3})$ \\
+$v_i$ & $9 \le i \le 3k,\ i \equiv 0 \pmod{3}$ & $(\frac{i+6}{3},\ \frac{3k-i+6}{3},\ \frac{i-3}{3},\ \frac{i+3}{3})$ \\
+$v_i$ & $3k+3 \le i \le 3k+6,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+6}{3},\ \frac{i-3k+6}{3},\ \frac{6k-i+3}{3},\ \frac{i+3}{3})$ \\
+$v_i$ & $3k+4 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+4}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+13}{3},\ \frac{6k-i+13}{3})$ \\
+$v_i$ & $3k+5 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-i+8}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+5}{3})$ \\
+$v_i$ & $3k+9 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+6}{3},\ \frac{i-3k+6}{3},\ \frac{6k-i+3}{3},\ \frac{6k-i+15}{3})$ \\
+$u_i u_{i+1}$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(i-1,\ \frac{3k-i+7}{3},\ 2,\ \frac{7-i}{3})$ \\
+$u_i u_{i+1}$ & $2 \le i \le 5,\ i \equiv 2 \pmod{3}$ & $(i-1,\ \frac{3k-i+8}{3},\ \frac{i+1}{3},\ \frac{8-i}{3})$ \\
+$u_i u_{i+1}$ & $3 \le i \le 6,\ i \equiv 0 \pmod{3}$ & $(\frac{2i}{3},\ \frac{3k-i+6}{3},\ \frac{i}{3},\ 2)$ \\
+$u_i u_{i+1}$ & $7 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{i+5}{3},\ \frac{3k-i+7}{3},\ \frac{i+2}{3},\ \frac{i-1}{3})$ \\
+$u_i u_{i+1}$ & $8 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{i+7}{3},\ \frac{3k-i+8}{3},\ \frac{i+1}{3},\ \frac{i-2}{3})$ \\
+$u_i u_{i+1}$ & $9 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i+6}{3},\ \frac{3k-i+6}{3},\ \frac{i}{3},\ \frac{i}{3})$ \\
+$u_i u_{i+1}$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i+5}{3},\ \frac{6k-2i+2}{3},\ \frac{i+2}{3},\ \frac{i-1}{3})$ \\
+$u_i u_{i+1}$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(k+2,\ 1,\ \frac{i+1}{3},\ \frac{i-2}{3})$ \\
+$u_i u_{i+1}$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+6}{3},\ \frac{2i-6k}{3},\ \frac{i}{3},\ \frac{i}{3})$ \\
+$u_i u_{i+1}$ & $3k+4 \le i \le 6k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+7}{3},\ \frac{i-3k+5}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+7}{3})$ \\
+$u_i u_{i+1}$ & $3k+5 \le i \le 6k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-i+8}{3},\ \frac{i-3k+7}{3},\ \frac{6k-i+5}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i u_{i+1}$ & $3k+6 \le i \le 6k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+6}{3},\ \frac{i-3k+6}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+9}{3})$ \\
+$u_i u_{i+1}$ & $i = 6k-2$ & $(2,\ k+1,\ 3,\ 3)$ \\
+$u_i u_{i+1}$ & $i = 6k-1$ & $(1,\ k+2,\ 2,\ 3)$ \\
+$u_i u_{i+1}$ & $i = 6k$ & $(0,\ k+2,\ 2,\ 3)$ \\
+$u_i v_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{2i-2}{3},\ \frac{3k-i+4}{3},\ \frac{10-i}{3},\ \frac{10-i}{3})$ \\
+$u_i v_i$ & $2 \le i \le 5,\ i \equiv 2 \pmod{3}$ & $(\frac{2i-1}{3},\ \frac{3k-i+8}{3},\ \frac{i+4}{3},\ \frac{5-i}{3})$ \\
+$u_i v_i$ & $3 \le i \le 6,\ i \equiv 0 \pmod{3}$ & $(\frac{2i}{3},\ \frac{3k-i+6}{3},\ \frac{i-3}{3},\ \frac{12-i}{3})$ \\
+$u_i v_i$ & $7 \le i \le 3k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i+2}{3},\ \frac{3k-i+4}{3},\ \frac{i+2}{3},\ \frac{i+2}{3})$ \\
+$u_i v_i$ & $8 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{3k-i+8}{3},\ \frac{i+4}{3},\ \frac{i-5}{3})$ \\
+$u_i v_i$ & $9 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i+6}{3},\ \frac{3k-i+6}{3},\ \frac{i-3}{3},\ \frac{i}{3})$ \\
+$u_i v_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{3k-i+5}{3},\ \frac{i+4}{3},\ \frac{i-5}{3})$ \\
+$u_i v_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+6}{3},\ \frac{i-3k+3}{3},\ \frac{i-3}{3},\ \frac{i}{3})$ \\
+$u_i v_i$ & $3k+1 \le i \le 3k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+4}{3},\ \frac{2i-6k-2}{3},\ \frac{i+2}{3},\ \frac{i+2}{3})$ \\
+$u_i v_i$ & $3k+5 \le i \le 6k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-i+8}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i v_i$ & $3k+6 \le i \le 6k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+6}{3},\ \frac{i-3k+6}{3},\ \frac{6k-i+3}{3},\ \frac{6k-i+12}{3})$ \\
+$u_i v_i$ & $3k+7 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+4}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+10}{3})$ \\
+$u_i v_i$ & $i = 6k-1$ & $(2,\ k+1,\ 3,\ 2)$ \\
+$u_i v_i$ & $i = 6k$ & $(1,\ k+2,\ 1,\ 4)$ \\
+$v_i v_{i+3}$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{i+2}{3},\ \frac{3k-i+1}{3},\ 3,\ 3)$ \\
+$v_i v_{i+3}$ & $2 \le i \le 5,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{3k-i+5}{3},\ \frac{i+7}{3},\ 0)$ \\
+$v_i v_{i+3}$ & $3 \le i \le 6,\ i \equiv 0 \pmod{3}$ & $(\frac{i+6}{3},\ \frac{3k-i+3}{3},\ \frac{i-3}{3},\ 3)$ \\
+$v_i v_{i+3}$ & $7 \le i \le 3k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i+2}{3},\ \frac{3k-i+1}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$v_i v_{i+3}$ & $8 \le i \le 3k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{3k-i+5}{3},\ \frac{i+7}{3},\ \frac{i-5}{3})$ \\
+$v_i v_{i+3}$ & $9 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i+6}{3},\ \frac{3k-i+3}{3},\ \frac{i-3}{3},\ \frac{i+3}{3})$ \\
+$v_i v_{i+3}$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+3}{3},\ \frac{i-3k+6}{3},\ k-1,\ \frac{i+3}{3})$ \\
+$v_i v_{i+3}$ & $3k+1 \le i \le 3k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+1}{3},\ \frac{i-3k+2}{3},\ k+2,\ k+2)$ \\
+$v_i v_{i+3}$ & $3k+2 \le i \le 3k+5,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-i+5}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+8}{3},\ k-1)$ \\
+$v_i v_{i+3}$ & $3k+6 \le i \le 6k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+3}{3},\ \frac{i-3k+6}{3},\ \frac{6k-i}{3},\ \frac{6k-i+12}{3})$ \\
+$v_i v_{i+3}$ & $3k+7 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+1}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+10}{3})$ \\
+$v_i v_{i+3}$ & $3k+8 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-i+5}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+2}{3})$ \\
+$v_i v_{i+3}$ & $i = 6k$ & $(2,\ k+1,\ 0,\ 4)$ \\
+\hline
+\end{longtable}
+\clearpage
+\begin{longtable}{lll}
+\caption{Mixed representations for $n\equiv 3 \pmod 6$. $W=\{u_{1}, u_{3k}, v_{3k+4}, v_{6k}\}$, $n=6k+3$.}\label{tab:W3}\\
+\hline Element & Range & $r(\cdot\,|\,W)$ \\ \hline
+\endfirsthead
+\hline Element & Range & $r(\cdot\,|\,W)$ \\ \hline
+\endhead
+$u_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(i-1,\ \frac{3k-i+10}{3},\ k+1,\ \frac{i+8}{3})$ \\
+$u_i$ & $2 \le i \le 5,\ i \equiv 2 \pmod{3}$ & $(i-1,\ \frac{3k-i+8}{3},\ k+2,\ \frac{i+10}{3})$ \\
+$u_i$ & $3 \le i \le 6,\ i \equiv 0 \pmod{3}$ & $(i-1,\ \frac{3k-i+6}{3},\ \frac{3k-i+9}{3},\ \frac{i+6}{3})$ \\
+$u_i$ & $7 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{i+5}{3},\ \frac{3k-i+10}{3},\ \frac{3k-i+7}{3},\ \frac{i+8}{3})$ \\
+$u_i$ & $8 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{i+7}{3},\ \frac{3k-i+8}{3},\ \frac{3k-i+11}{3},\ \frac{i+10}{3})$ \\
+$u_i$ & $9 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i+9}{3},\ \frac{3k-i+6}{3},\ \frac{3k-i+9}{3},\ \frac{i+6}{3})$ \\
+$u_i$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i+5}{3},\ \frac{3k-i+4}{3},\ \frac{3k-i+7}{3},\ k+2)$ \\
+$u_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i+7}{3},\ \frac{i-3k+4}{3},\ \frac{3k-i+11}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(k+3,\ i-3k,\ \frac{3k-i+9}{3},\ \frac{6k-i+3}{3})$ \\
+$u_i$ & $3k+4 \le i \le 6k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+10}{3},\ \frac{i-3k+8}{3},\ \frac{i-3k-1}{3},\ \frac{6k-i+7}{3})$ \\
+$u_i$ & $3k+5 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-i+14}{3},\ \frac{i-3k+10}{3},\ \frac{i-3k+1}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i$ & $3k+6 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+12}{3},\ \frac{i-3k+6}{3},\ \frac{i-3k+3}{3},\ \frac{6k-i+3}{3})$ \\
+$u_i$ & $i = 6k+2$ & $(2,\ k+3,\ k+1,\ 3)$ \\
+$u_i$ & $i = 6k+3$ & $(1,\ k+2,\ k+2,\ 2)$ \\
+$v_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{i+2}{3},\ \frac{3k-i+7}{3},\ k,\ \frac{i+11}{3})$ \\
+$v_i$ & $2 \le i \le 5,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{3k-i+5}{3},\ k+3,\ \frac{i+13}{3})$ \\
+$v_i$ & $3 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i+6}{3},\ \frac{3k-i+3}{3},\ \frac{3k-i+12}{3},\ \frac{i+3}{3})$ \\
+$v_i$ & $7 \le i \le 3k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i+2}{3},\ \frac{3k-i+7}{3},\ \frac{3k-i+4}{3},\ \frac{i+11}{3})$ \\
+$v_i$ & $8 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{3k-i+5}{3},\ \frac{3k-i+14}{3},\ \frac{i+13}{3})$ \\
+$v_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{i-3k+7}{3},\ \frac{3k-i+14}{3},\ \frac{6k-i+8}{3})$ \\
+$v_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(k+2,\ \frac{i-3k+3}{3},\ \frac{3k-i+12}{3},\ \frac{6k-i}{3})$ \\
+$v_i$ & $3k+1 \le i \le 3k+4,\ i \equiv 1 \pmod{3}$ & $(k+1,\ \frac{i-3k+5}{3},\ \frac{3k-i+4}{3},\ \frac{6k-i+10}{3})$ \\
+$v_i$ & $3k+5 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-i+11}{3},\ \frac{i-3k+7}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+8}{3})$ \\
+$v_i$ & $3k+6 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+9}{3},\ \frac{i-3k+3}{3},\ \frac{i-3k+6}{3},\ \frac{6k-i}{3})$ \\
+$v_i$ & $3k+7 \le i \le 6k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+7}{3},\ \frac{i-3k+5}{3},\ \frac{i-3k-4}{3},\ \frac{6k-i+10}{3})$ \\
+$v_i$ & $i = 6k+2$ & $(3,\ k+2,\ k+2,\ 4)$ \\
+$v_i$ & $i = 6k+3$ & $(2,\ k+1,\ k+3,\ 1)$ \\
+$u_i u_{i+1}$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(i-1,\ \frac{3k-i+7}{3},\ k+1,\ \frac{i+8}{3})$ \\
+$u_i u_{i+1}$ & $2 \le i \le 5,\ i \equiv 2 \pmod{3}$ & $(i-1,\ \frac{3k-i+5}{3},\ \frac{3k-i+8}{3},\ \frac{i+7}{3})$ \\
+$u_i u_{i+1}$ & $3 \le i \le 6,\ i \equiv 0 \pmod{3}$ & $(\frac{2i}{3},\ \frac{3k-i+6}{3},\ \frac{3k-i+6}{3},\ \frac{i+6}{3})$ \\
+$u_i u_{i+1}$ & $7 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{i+5}{3},\ \frac{3k-i+7}{3},\ \frac{3k-i+7}{3},\ \frac{i+8}{3})$ \\
+$u_i u_{i+1}$ & $8 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{i+7}{3},\ \frac{3k-i+5}{3},\ \frac{3k-i+8}{3},\ \frac{i+7}{3})$ \\
+$u_i u_{i+1}$ & $9 \le i \le 3k-6,\ i \equiv 0 \pmod{3}$ & $(\frac{i+6}{3},\ \frac{3k-i+6}{3},\ \frac{3k-i+6}{3},\ \frac{i+6}{3})$ \\
+$u_i u_{i+1}$ & $3k-3 \le i \le 3k,\ i \equiv 0 \pmod{3}$ & $(\frac{i+6}{3},\ \frac{6k-2i}{3},\ \frac{3k-i+6}{3},\ k+1)$ \\
+$u_i u_{i+1}$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i+5}{3},\ 1,\ \frac{3k-i+7}{3},\ \frac{6k-i+4}{3})$ \\
+$u_i u_{i+1}$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i+7}{3},\ \frac{2i-6k+2}{3},\ \frac{3k-i+8}{3},\ \frac{6k-i+2}{3})$ \\
+$u_i u_{i+1}$ & $3k+3 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+9}{3},\ \frac{i-3k+6}{3},\ \frac{i-3k}{3},\ \frac{6k-i+3}{3})$ \\
+$u_i u_{i+1}$ & $3k+4 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+10}{3},\ \frac{i-3k+8}{3},\ \frac{i-3k-1}{3},\ \frac{6k-i+4}{3})$ \\
+$u_i u_{i+1}$ & $3k+5 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-i+11}{3},\ \frac{i-3k+7}{3},\ \frac{i-3k+1}{3},\ \frac{6k-i+2}{3})$ \\
+$u_i u_{i+1}$ & $i = 6k+1$ & $(2,\ k+3,\ k,\ 2)$ \\
+$u_i u_{i+1}$ & $i = 6k+2$ & $(1,\ k+2,\ k+1,\ 2)$ \\
+$u_i u_{i+1}$ & $i = 6k+3$ & $(0,\ k+2,\ k+1,\ 2)$ \\
+$u_i v_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{2i-2}{3},\ \frac{3k-i+7}{3},\ k,\ \frac{i+8}{3})$ \\
+$u_i v_i$ & $2 \le i \le 5,\ i \equiv 2 \pmod{3}$ & $(\frac{2i-1}{3},\ \frac{3k-i+5}{3},\ k+2,\ \frac{i+10}{3})$ \\
+$u_i v_i$ & $3 \le i \le 6,\ i \equiv 0 \pmod{3}$ & $(\frac{2i}{3},\ \frac{3k-i+3}{3},\ \frac{3k-i+9}{3},\ \frac{i+3}{3})$ \\
+$u_i v_i$ & $7 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{i+2}{3},\ \frac{3k-i+7}{3},\ \frac{3k-i+4}{3},\ \frac{i+8}{3})$ \\
+$u_i v_i$ & $8 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{3k-i+5}{3},\ \frac{3k-i+11}{3},\ \frac{i+10}{3})$ \\
+$u_i v_i$ & $9 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i+6}{3},\ \frac{3k-i+3}{3},\ \frac{3k-i+9}{3},\ \frac{i+3}{3})$ \\
+$u_i v_i$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i+2}{3},\ \frac{3k-i+4}{3},\ \frac{3k-i+4}{3},\ k+2)$ \\
+$u_i v_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{i-3k+4}{3},\ \frac{3k-i+11}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i v_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(k+2,\ \frac{2i-6k}{3},\ \frac{3k-i+9}{3},\ \frac{6k-i}{3})$ \\
+$u_i v_i$ & $3k+4 \le i \le 6k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+7}{3},\ \frac{i-3k+5}{3},\ \frac{i-3k-4}{3},\ \frac{6k-i+7}{3})$ \\
+$u_i v_i$ & $3k+5 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-i+11}{3},\ \frac{i-3k+7}{3},\ \frac{i-3k+1}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i v_i$ & $3k+6 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+9}{3},\ \frac{i-3k+3}{3},\ \frac{i-3k+3}{3},\ \frac{6k-i}{3})$ \\
+$u_i v_i$ & $i = 6k+2$ & $(2,\ k+2,\ k+1,\ 3)$ \\
+$u_i v_i$ & $i = 6k+3$ & $(1,\ k+1,\ k+2,\ 1)$ \\
+$v_i v_{i+3}$ & $1 \le i \le 3k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i+2}{3},\ \frac{3k-i+4}{3},\ \frac{3k-i+1}{3},\ \frac{i+11}{3})$ \\
+$v_i v_{i+3}$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{3k-i+2}{3},\ \frac{3k-i+11}{3},\ \frac{i+13}{3})$ \\
+$v_i v_{i+3}$ & $3 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i+6}{3},\ \frac{3k-i}{3},\ \frac{3k-i+9}{3},\ \frac{i+3}{3})$ \\
+$v_i v_{i+3}$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i+4}{3},\ \frac{i-3k+7}{3},\ \frac{3k-i+11}{3},\ \frac{6k-i+5}{3})$ \\
+$v_i v_{i+3}$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+6}{3},\ \frac{i-3k+3}{3},\ 3,\ \frac{6k-i-3}{3})$ \\
+$v_i v_{i+3}$ & $3k+1 \le i \le 3k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+4}{3},\ \frac{i-3k+5}{3},\ 0,\ \frac{6k-i+7}{3})$ \\
+$v_i v_{i+3}$ & $3k+5 \le i \le 6k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-i+8}{3},\ \frac{i-3k+7}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+5}{3})$ \\
+$v_i v_{i+3}$ & $3k+6 \le i \le 6k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-i+6}{3},\ \frac{i-3k+3}{3},\ \frac{i-3k+6}{3},\ \frac{6k-i-3}{3})$ \\
+$v_i v_{i+3}$ & $3k+7 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-i+4}{3},\ \frac{i-3k+5}{3},\ \frac{i-3k-4}{3},\ \frac{6k-i+7}{3})$ \\
+$v_i v_{i+3}$ & $6k-1 \le i \le 6k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-i+8}{3},\ \frac{9k-i+5}{3},\ \frac{i-3k+4}{3},\ \frac{i-6k+10}{3})$ \\
+$v_i v_{i+3}$ & $6k \le i \le 6k+3,\ i \equiv 0 \pmod{3}$ & $(2,\ \frac{9k-i+3}{3},\ \frac{i-3k+6}{3},\ \frac{i-6k}{3})$ \\
+$v_i v_{i+3}$ & $i = 6k+1$ & $(1,\ k+2,\ k-1,\ 3)$ \\
+\hline
+\end{longtable}
+\clearpage
+\begin{longtable}{lll}
+\caption{Mixed representations for $n\equiv 4 \pmod 6$. $W=\{u_{3k}, v_{1}, v_{2}, v_{6k+1}\}$, $n=6k+4$.}\label{tab:W4}\\
+\hline Element & Range & $r(\cdot\,|\,W)$ \\ \hline
+\endfirsthead
+\hline Element & Range & $r(\cdot\,|\,W)$ \\ \hline
+\endhead
+$u_i$ & $1 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+10}{3},\ \frac{i+2}{3},\ \frac{i+5}{3},\ \frac{i+8}{3})$ \\
+$u_i$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+8}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{i+10}{3})$ \\
+$u_i$ & $3 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+6}{3},\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{i+6}{3})$ \\
+$u_i$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ \frac{i+2}{3},\ \frac{i+5}{3},\ \frac{6k-i+4}{3})$ \\
+$u_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(i-3k,\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{6k-i+6}{3})$ \\
+$u_i$ & $3k+4 \le i \le 6k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+13}{3},\ \frac{6k-i+4}{3})$ \\
+$u_i$ & $3k+5 \le i \le 6k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+10}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i$ & $3k+6 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{6k-i+12}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+6}{3})$ \\
+$u_i$ & $i = 6k+3$ & $(k+3,\ 3,\ 2,\ 3)$ \\
+$u_i$ & $i = 6k+4$ & $(k+2,\ 2,\ 3,\ 2)$ \\
+$v_i$ & $1 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{i+11}{3})$ \\
+$v_i$ & $2 \le i \le 3k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+5}{3},\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{i+13}{3})$ \\
+$v_i$ & $3 \le i \le 3k,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+3}{3},\ \frac{i+9}{3},\ \frac{i+6}{3},\ \frac{i+3}{3})$ \\
+$v_i$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{6k-i+1}{3})$ \\
+$v_i$ & $3k+2 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{6k-i+5}{3},\ \frac{i-2}{3},\ \frac{6k-i+11}{3})$ \\
+$v_i$ & $3k+3 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+3}{3},\ \frac{6k-i+15}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+9}{3})$ \\
+$v_i$ & $3k+4 \le i \le 3k+7,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{i-1}{3},\ \frac{6k-i+16}{3},\ \frac{6k-i+1}{3})$ \\
+$v_i$ & $3k+10 \le i \le 6k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{6k-i+13}{3},\ \frac{6k-i+16}{3},\ \frac{6k-i+1}{3})$ \\
+$v_i$ & $3k+11 \le i \le 6k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{6k-i+5}{3},\ \frac{6k-i+14}{3},\ \frac{6k-i+11}{3})$ \\
+$v_i$ & $i = 6k+3$ & $(k+2,\ 4,\ 1,\ 4)$ \\
+$v_i$ & $i = 6k+4$ & $(k+1,\ 3,\ 4,\ 1)$ \\
+$u_i u_{i+1}$ & $1 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ \frac{i+2}{3},\ \frac{i+2}{3},\ \frac{i+8}{3})$ \\
+$u_i u_{i+1}$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+5}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{i+7}{3})$ \\
+$u_i u_{i+1}$ & $3 \le i \le 3k-6,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+6}{3},\ \frac{i+3}{3},\ \frac{i+3}{3},\ \frac{i+6}{3})$ \\
+$u_i u_{i+1}$ & $3k-3 \le i \le 3k,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-2i}{3},\ \frac{i+3}{3},\ \frac{i+3}{3},\ k+1)$ \\
+$u_i u_{i+1}$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(1,\ \frac{i+2}{3},\ \frac{i+2}{3},\ \frac{6k-i+4}{3})$ \\
+$u_i u_{i+1}$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{2i-6k+2}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i u_{i+1}$ & $3k+3 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+3}{3})$ \\
+$u_i u_{i+1}$ & $3k+4 \le i \le 6k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+4}{3})$ \\
+$u_i u_{i+1}$ & $3k+5 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i u_{i+1}$ & $i = 6k+2$ & $(k+3,\ 2,\ 2,\ 2)$ \\
+$u_i u_{i+1}$ & $i = 6k+3$ & $(k+2,\ 2,\ 2,\ 2)$ \\
+$u_i u_{i+1}$ & $i = 6k+4$ & $(k+2,\ 1,\ 2,\ 2)$ \\
+$u_i v_i$ & $1 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ \frac{i-1}{3},\ \frac{i+5}{3},\ \frac{i+8}{3})$ \\
+$u_i v_i$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+5}{3},\ \frac{i+4}{3},\ \frac{i-2}{3},\ \frac{i+10}{3})$ \\
+$u_i v_i$ & $3 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+3}{3},\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i v_i$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ \frac{i-1}{3},\ \frac{i+5}{3},\ \frac{6k-i+1}{3})$ \\
+$u_i v_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ k+1,\ \frac{i-2}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i v_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{2i-6k}{3},\ \frac{i+6}{3},\ k+1,\ k+1)$ \\
+$u_i v_i$ & $3k+4 \le i \le 3k+7,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ k+1,\ \frac{6k-i+13}{3},\ \frac{6k-i+1}{3})$ \\
+$u_i v_i$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{6k-i+5}{3},\ k+1,\ \frac{6k-i+8}{3})$ \\
+$u_i v_i$ & $3k+6 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+3}{3},\ \frac{6k-i+12}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+6}{3})$ \\
+$u_i v_i$ & $3k+10 \le i \le 6k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+13}{3},\ \frac{6k-i+1}{3})$ \\
+$u_i v_i$ & $3k+11 \le i \le 6k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{6k-i+5}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i v_i$ & $i = 6k+3$ & $(k+2,\ 3,\ 1,\ 3)$ \\
+$u_i v_i$ & $i = 6k+4$ & $(k+1,\ 2,\ 3,\ 1)$ \\
+$v_i v_{i+3}$ & $1 \le i \le 3k-8,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{i+11}{3})$ \\
+$v_i v_{i+3}$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+2}{3},\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{i+13}{3})$ \\
+$v_i v_{i+3}$ & $3 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i}{3},\ \frac{i+9}{3},\ \frac{i+6}{3},\ \frac{i+3}{3})$ \\
+$v_i v_{i+3}$ & $3k-5 \le i \le 3k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{6k-i-2}{3})$ \\
+$v_i v_{i+3}$ & $3k-1 \le i \le 3k+5,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{6k-i+2}{3},\ \frac{i-2}{3},\ \frac{6k-i+8}{3})$ \\
+$v_i v_{i+3}$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+3}{3},\ k+3,\ \frac{6k-i+3}{3},\ k+1)$ \\
+$v_i v_{i+3}$ & $3k+1 \le i \le 3k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{i-1}{3},\ k+3,\ \frac{6k-i-2}{3})$ \\
+$v_i v_{i+3}$ & $3k+6 \le i \le 6k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+3}{3},\ \frac{6k-i+12}{3},\ \frac{6k-i+3}{3},\ \frac{6k-i+6}{3})$ \\
+$v_i v_{i+3}$ & $3k+7 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+13}{3},\ \frac{6k-i-2}{3})$ \\
+$v_i v_{i+3}$ & $3k+8 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{6k-i+2}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+8}{3})$ \\
+$v_i v_{i+3}$ & $6k \le i \le 6k+3,\ i \equiv 0 \pmod{3}$ & $(k+1,\ \frac{6k-i+12}{3},\ \frac{6k-i+3}{3},\ \frac{i-6k+9}{3})$ \\
+$v_i v_{i+3}$ & $6k+1 \le i \le 6k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{9k-i+4}{3},\ 3,\ \frac{6k-i+13}{3},\ \frac{i-6k-1}{3})$ \\
+$v_i v_{i+3}$ & $i = 6k+2$ & $(k+2,\ 0,\ 3,\ 3)$ \\
+\hline
+\end{longtable}
+\clearpage
+\begin{longtable}{lll}
+\caption{Representations with respect to the $5$-set, $n\equiv 1 \pmod 6$. $W=\{u_{3k-1}, u_{3k+3}, v_{1}, v_{2}, v_{6k+1}\}$, $n=6k+1$.}\label{tab:W51}\\
+\hline Element & Range & $r(\cdot\,|\,W)$ \\ \hline
+\endfirsthead
+\hline Element & Range & $r(\cdot\,|\,W)$ \\ \hline
+\endhead
+$u_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ k+3,\ \frac{i+2}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i$ & $2 \le i \le 5,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+5}{3},\ k+2,\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{i+7}{3})$ \\
+$u_i$ & $3 \le i \le 3k-6,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+9}{3},\ \frac{3k-i+9}{3},\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i$ & $7 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ \frac{3k-i+13}{3},\ \frac{i+2}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i$ & $8 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+5}{3},\ \frac{3k-i+11}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{i+7}{3})$ \\
+$u_i$ & $3k-3 \le i \le 3k,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+3}{3},\ \frac{3k-i+9}{3},\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ 3k-i+3,\ \frac{i+2}{3},\ \frac{i+5}{3},\ k+1)$ \\
+$u_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(i-3k+1,\ 3k-i+3,\ k+1,\ \frac{i+1}{3},\ k+2)$ \\
+$u_i$ & $3k+3 \le i \le 3k+6,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+9}{3},\ i-3k-3,\ \frac{6k-i+9}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+6}{3})$ \\
+$u_i$ & $3k+4 \le i \le 3k+7,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+11}{3},\ i-3k-3,\ \frac{6k-i+7}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+4}{3})$ \\
+$u_i$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ i-3k-3,\ \frac{6k-i+5}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i$ & $3k+9 \le i \le 6k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+9}{3},\ \frac{i-3k+3}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+6}{3})$ \\
+$u_i$ & $3k+10 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+11}{3},\ \frac{i-3k+5}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+4}{3})$ \\
+$u_i$ & $3k+11 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{i-3k+7}{3},\ \frac{6k-i+5}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i$ & $i = 6k$ & $(k+2,\ k+1,\ 3,\ 2,\ 2)$ \\
+$u_i$ & $i = 6k+1$ & $(k+3,\ k+2,\ 2,\ 3,\ 1)$ \\
+$v_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ k+2,\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{i+8}{3})$ \\
+$v_i$ & $2 \le i \le 5,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+2}{3},\ k+1,\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{i+10}{3})$ \\
+$v_i$ & $3 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+6}{3},\ \frac{3k-i+6}{3},\ \frac{i+9}{3},\ \frac{i+6}{3},\ \frac{i}{3})$ \\
+$v_i$ & $7 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ \frac{3k-i+10}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{i+8}{3})$ \\
+$v_i$ & $8 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+2}{3},\ \frac{3k-i+8}{3},\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{i+10}{3})$ \\
+$v_i$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ \frac{3k-i+10}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{6k-i+1}{3})$ \\
+$v_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{3k-i+8}{3},\ \frac{6k-i+2}{3},\ \frac{i-2}{3},\ k+3)$ \\
+$v_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{3k-i+6}{3},\ k+3,\ \frac{6k-i+3}{3},\ \frac{i}{3})$ \\
+$v_i$ & $3k+4 \le i \le 3k+7,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ \frac{i-3k+2}{3},\ k+1,\ \frac{6k-i+13}{3},\ \frac{6k-i+1}{3})$ \\
+$v_i$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+2}{3},\ k+1,\ \frac{6k-i+11}{3})$ \\
+$v_i$ & $3k+6 \le i \le 6k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{i-3k}{3},\ \frac{6k-i+12}{3},\ \frac{6k-i+3}{3},\ \frac{6k-i+9}{3})$ \\
+$v_i$ & $3k+10 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+13}{3},\ \frac{6k-i+1}{3})$ \\
+$v_i$ & $3k+11 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+2}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+11}{3})$ \\
+$v_i$ & $i = 6k$ & $(k+1,\ k,\ 4,\ 1,\ 3)$ \\
+$v_i$ & $i = 6k+1$ & $(k+2,\ k+1,\ 3,\ 4,\ 0)$ \\
+$u_i u_{i+1}$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ k+2,\ \frac{i+2}{3},\ \frac{i+2}{3},\ \frac{i+5}{3})$ \\
+$u_i u_{i+1}$ & $2 \le i \le 3k-7,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+5}{3},\ \frac{3k-i+8}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{i+4}{3})$ \\
+$u_i u_{i+1}$ & $3 \le i \le 3k-6,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+6}{3},\ \frac{3k-i+9}{3},\ \frac{i+3}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i u_{i+1}$ & $7 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ \frac{3k-i+10}{3},\ \frac{i+2}{3},\ \frac{i+2}{3},\ \frac{i+5}{3})$ \\
+$u_i u_{i+1}$ & $3k-4 \le i \le 3k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{6k-2i-2}{3},\ \frac{3k-i+8}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{i+4}{3})$ \\
+$u_i u_{i+1}$ & $3k-3 \le i \le 3k,\ i \equiv 0 \pmod{3}$ & $(1,\ \frac{6k-2i+6}{3},\ \frac{i+3}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i u_{i+1}$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{2i-6k+4}{3},\ 3k-i+2,\ \frac{i+2}{3},\ \frac{i+2}{3},\ k+1)$ \\
+$u_i u_{i+1}$ & $3k+2 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{2i-6k-4}{3},\ \frac{6k-i+5}{3},\ \frac{6k-i+5}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i u_{i+1}$ & $3k+3 \le i \le 3k+6,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+9}{3},\ i-3k-3,\ \frac{6k-i+6}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+3}{3})$ \\
+$u_i u_{i+1}$ & $3k+4 \le i \le 3k+7,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ i-3k-3,\ \frac{6k-i+4}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+4}{3})$ \\
+$u_i u_{i+1}$ & $3k+9 \le i \le 6k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+9}{3},\ \frac{i-3k+3}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+3}{3})$ \\
+$u_i u_{i+1}$ & $3k+10 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ \frac{i-3k+5}{3},\ \frac{6k-i+4}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+4}{3})$ \\
+$u_i u_{i+1}$ & $3k+11 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+5}{3},\ \frac{6k-i+5}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i u_{i+1}$ & $i = 6k$ & $(k+2,\ k+1,\ 2,\ 2,\ 1)$ \\
+$u_i u_{i+1}$ & $i = 6k+1$ & $(k+2,\ k+2,\ 1,\ 2,\ 1)$ \\
+$u_i v_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ k+2,\ \frac{i-1}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i v_i$ & $2 \le i \le 5,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+2}{3},\ k+1,\ \frac{i+4}{3},\ \frac{i-2}{3},\ \frac{i+7}{3})$ \\
+$u_i v_i$ & $3 \le i \le 3k-6,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+6}{3},\ \frac{3k-i+6}{3},\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{i}{3})$ \\
+$u_i v_i$ & $7 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ \frac{3k-i+10}{3},\ \frac{i-1}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i v_i$ & $8 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+2}{3},\ \frac{3k-i+8}{3},\ \frac{i+4}{3},\ \frac{i-2}{3},\ \frac{i+7}{3})$ \\
+$u_i v_i$ & $3k-3 \le i \le 3k,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+3}{3},\ \frac{3k-i+6}{3},\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{i}{3})$ \\
+$u_i v_i$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{6k-2i+8}{3},\ \frac{i-1}{3},\ \frac{i+5}{3},\ \frac{6k-i+1}{3})$ \\
+$u_i v_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{2i-6k+2}{3},\ \frac{6k-2i+7}{3},\ \frac{6k-i+2}{3},\ \frac{i-2}{3},\ k+2)$ \\
+$u_i v_i$ & $3k+3 \le i \le 3k+6,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{2i-6k-6}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+3}{3},\ \frac{6k-i+6}{3})$ \\
+$u_i v_i$ & $3k+4 \le i \le 3k+7,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ \frac{2i-6k-5}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+1}{3})$ \\
+$u_i v_i$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{2i-6k-4}{3},\ \frac{6k-i+2}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i v_i$ & $3k+9 \le i \le 6k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{i-3k}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+3}{3},\ \frac{6k-i+6}{3})$ \\
+$u_i v_i$ & $3k+10 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+1}{3})$ \\
+$u_i v_i$ & $3k+11 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+2}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i v_i$ & $i = 6k$ & $(k+1,\ k,\ 3,\ 1,\ 2)$ \\
+$u_i v_i$ & $i = 6k+1$ & $(k+2,\ k+1,\ 2,\ 3,\ 0)$ \\
+$v_i v_{i+3}$ & $1 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+1}{3},\ \frac{3k-i+7}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{i+8}{3})$ \\
+$v_i v_{i+3}$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i-1}{3},\ \frac{3k-i+5}{3},\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{i+10}{3})$ \\
+$v_i v_{i+3}$ & $3 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+3}{3},\ \frac{3k-i+3}{3},\ \frac{i+9}{3},\ \frac{i+6}{3},\ \frac{i}{3})$ \\
+$v_i v_{i+3}$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ \frac{3k-i+7}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{6k-i-2}{3})$ \\
+$v_i v_{i+3}$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ 2,\ \frac{6k-i-1}{3},\ \frac{i-2}{3},\ \frac{6k-i+8}{3})$ \\
+$v_i v_{i+3}$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ 1,\ \frac{6k-i+9}{3},\ \frac{6k-i}{3},\ \frac{i}{3})$ \\
+$v_i v_{i+3}$ & $3k+4 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i-2}{3})$ \\
+$v_i v_{i+3}$ & $3k+5 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i-1}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+8}{3})$ \\
+$v_i v_{i+3}$ & $3k+6 \le i \le 6k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{i-3k}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i}{3},\ \frac{6k-i+6}{3})$ \\
+$v_i v_{i+3}$ & $i = 6k$ & $(k,\ k,\ 3,\ 0,\ 3)$ \\
+$v_i v_{i+3}$ & $i = 6k+1$ & $(k+1,\ k+1,\ 3,\ 3,\ 0)$ \\
+\hline
+\end{longtable}
+\clearpage
+\begin{longtable}{lll}
+\caption{Representations with respect to the $5$-set, $n\equiv 2 \pmod 6$. $W=\{u_{3k}, u_{3k+3}, v_{1}, v_{2}, v_{6k+2}\}$, $n=6k+2$.}\label{tab:W52}\\
+\hline Element & Range & $r(\cdot\,|\,W)$ \\ \hline
+\endfirsthead
+\hline Element & Range & $r(\cdot\,|\,W)$ \\ \hline
+\endhead
+$u_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+10}{3},\ \frac{3k+i+5}{3},\ \frac{i+2}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+8}{3},\ \frac{3k-i+11}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{i+7}{3})$ \\
+$u_i$ & $3 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+6}{3},\ \frac{3k-i+9}{3},\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i$ & $7 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+10}{3},\ \frac{3k-i+13}{3},\ \frac{i+2}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ 3k-i+3,\ \frac{i+2}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ 3k-i+3,\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(i-3k,\ 3k-i+3,\ \frac{6k-i+6}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i$ & $3k+4 \le i \le 3k+7,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ i-3k-3,\ \frac{6k-i+10}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+7}{3})$ \\
+$u_i$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+10}{3},\ i-3k-3,\ \frac{6k-i+8}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i$ & $3k+6 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{i-3k+3}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+9}{3})$ \\
+$u_i$ & $3k+10 \le i \le 6k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ \frac{i-3k+5}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+7}{3})$ \\
+$u_i$ & $3k+11 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+10}{3},\ \frac{i-3k+7}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i$ & $i = 6k+2$ & $(k+2,\ k+3,\ 2,\ 3,\ 1)$ \\
+$v_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ \frac{3k+i+2}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{i+8}{3})$ \\
+$v_i$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+5}{3},\ \frac{3k-i+8}{3},\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{i+10}{3})$ \\
+$v_i$ & $3 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+3}{3},\ \frac{3k-i+6}{3},\ \frac{i+9}{3},\ \frac{i+6}{3},\ \frac{i}{3})$ \\
+$v_i$ & $7 \le i \le 3k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ \frac{3k-i+10}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{i+8}{3})$ \\
+$v_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{3k-i+8}{3},\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{6k-i+2}{3})$ \\
+$v_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+3}{3},\ \frac{3k-i+6}{3},\ \frac{6k-i+3}{3},\ \frac{i+6}{3},\ \frac{i}{3})$ \\
+$v_i$ & $3k+1 \le i \le 3k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{3k-i+10}{3},\ \frac{i-1}{3},\ \frac{6k-i+4}{3},\ \frac{6k-i+10}{3})$ \\
+$v_i$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+11}{3},\ \frac{i-2}{3},\ \frac{6k-i+2}{3})$ \\
+$v_i$ & $3k+6 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+3}{3},\ \frac{i-3k}{3},\ \frac{6k-i+3}{3},\ \frac{6k-i+12}{3},\ \frac{6k-i+12}{3})$ \\
+$v_i$ & $3k+7 \le i \le 6k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+13}{3},\ \frac{6k-i+4}{3},\ \frac{6k-i+10}{3})$ \\
+$v_i$ & $3k+11 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+14}{3},\ \frac{6k-i+2}{3})$ \\
+$v_i$ & $i = 6k+2$ & $(k+1,\ k+2,\ 3,\ 4,\ 0)$ \\
+$u_i u_{i+1}$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ k+2,\ \frac{i+2}{3},\ \frac{i+2}{3},\ \frac{i+5}{3})$ \\
+$u_i u_{i+1}$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+5}{3},\ \frac{3k-i+8}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{i+4}{3})$ \\
+$u_i u_{i+1}$ & $3 \le i \le 3k-6,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+6}{3},\ \frac{3k-i+9}{3},\ \frac{i+3}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i u_{i+1}$ & $7 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ \frac{3k-i+10}{3},\ \frac{i+2}{3},\ \frac{i+2}{3},\ \frac{i+5}{3})$ \\
+$u_i u_{i+1}$ & $3k-3 \le i \le 3k,\ i \equiv 0 \pmod{3}$ & $(\frac{6k-2i}{3},\ \frac{6k-2i+6}{3},\ \frac{i+3}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i u_{i+1}$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(1,\ 3k-i+2,\ \frac{i+2}{3},\ \frac{i+2}{3},\ k+1)$ \\
+$u_i u_{i+1}$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{2i-6k+2}{3},\ 3k-i+2,\ k+1,\ \frac{i+1}{3},\ k+1)$ \\
+$u_i u_{i+1}$ & $3k+3 \le i \le 3k+6,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ i-3k-3,\ \frac{6k-i+6}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+6}{3})$ \\
+$u_i u_{i+1}$ & $3k+4 \le i \le 3k+7,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ i-3k-3,\ \frac{6k-i+7}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+4}{3})$ \\
+$u_i u_{i+1}$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{2i-6k-4}{3},\ \frac{6k-i+5}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i u_{i+1}$ & $3k+9 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{i-3k+3}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+6}{3})$ \\
+$u_i u_{i+1}$ & $3k+10 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+8}{3},\ \frac{i-3k+5}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+4}{3})$ \\
+$u_i u_{i+1}$ & $3k+11 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+5}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i u_{i+1}$ & $i = 6k+1$ & $(k+2,\ k+2,\ 2,\ 2,\ 1)$ \\
+$u_i u_{i+1}$ & $i = 6k+2$ & $(k+2,\ k+2,\ 1,\ 2,\ 1)$ \\
+$u_i v_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ \frac{3k+i+2}{3},\ \frac{i-1}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i v_i$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+5}{3},\ \frac{3k-i+8}{3},\ \frac{i+4}{3},\ \frac{i-2}{3},\ \frac{i+7}{3})$ \\
+$u_i v_i$ & $3 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+3}{3},\ \frac{3k-i+6}{3},\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{i}{3})$ \\
+$u_i v_i$ & $7 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ \frac{3k-i+10}{3},\ \frac{i-1}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i v_i$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ \frac{6k-2i+8}{3},\ \frac{i-1}{3},\ k+1,\ \frac{i+5}{3})$ \\
+$u_i v_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{6k-2i+7}{3},\ \frac{i+4}{3},\ \frac{i-2}{3},\ \frac{6k-i+2}{3})$ \\
+$u_i v_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{2i-6k}{3},\ \frac{6k-2i+6}{3},\ \frac{6k-i+3}{3},\ \frac{i+3}{3},\ \frac{i}{3})$ \\
+$u_i v_i$ & $3k+4 \le i \le 3k+7,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{2i-6k-5}{3},\ k+1,\ \frac{6k-i+4}{3},\ \frac{6k-i+7}{3})$ \\
+$u_i v_i$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{2i-6k-4}{3},\ \frac{6k-i+8}{3},\ k+1,\ \frac{6k-i+2}{3})$ \\
+$u_i v_i$ & $3k+6 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+3}{3},\ \frac{i-3k}{3},\ \frac{6k-i+3}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+9}{3})$ \\
+$u_i v_i$ & $3k+10 \le i \le 6k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+4}{3},\ \frac{6k-i+7}{3})$ \\
+$u_i v_i$ & $3k+11 \le i \le 6k-1,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+2}{3})$ \\
+$u_i v_i$ & $i = 6k+2$ & $(k+1,\ k+2,\ 2,\ 3,\ 0)$ \\
+$v_i v_{i+3}$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ k+1,\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{i+8}{3})$ \\
+$v_i v_{i+3}$ & $2 \le i \le 3k-7,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+2}{3},\ \frac{3k-i+5}{3},\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{i+10}{3})$ \\
+$v_i v_{i+3}$ & $3 \le i \le 3k-6,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i}{3},\ \frac{3k-i+3}{3},\ \frac{i+9}{3},\ \frac{i+6}{3},\ \frac{i}{3})$ \\
+$v_i v_{i+3}$ & $7 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ \frac{3k-i+7}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{i+8}{3})$ \\
+$v_i v_{i+3}$ & $3k-4 \le i \le 3k-1,\ i \equiv 2 \pmod{3}$ & $(2,\ \frac{3k-i+5}{3},\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{6k-i-1}{3})$ \\
+$v_i v_{i+3}$ & $3k-3 \le i \le 3k,\ i \equiv 0 \pmod{3}$ & $(1,\ \frac{3k-i+3}{3},\ \frac{6k-i}{3},\ \frac{i+6}{3},\ \frac{i}{3})$ \\
+$v_i v_{i+3}$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(2,\ \frac{3k-i+7}{3},\ \frac{i-1}{3},\ \frac{6k-i+1}{3},\ k+2)$ \\
+$v_i v_{i+3}$ & $3k+2 \le i \le 3k+5,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+8}{3},\ \frac{i-2}{3},\ \frac{6k-i-1}{3})$ \\
+$v_i v_{i+3}$ & $3k+3 \le i \le 3k+6,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+3}{3},\ \frac{i-3k}{3},\ \frac{6k-i}{3},\ \frac{6k-i+9}{3},\ k+1)$ \\
+$v_i v_{i+3}$ & $3k+4 \le i \le 3k+7,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{i-3k+2}{3},\ k+1,\ \frac{6k-i+1}{3},\ \frac{6k-i+7}{3})$ \\
+$v_i v_{i+3}$ & $3k+8 \le i \le 6k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{i-3k+4}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i-1}{3})$ \\
+$v_i v_{i+3}$ & $3k+9 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+3}{3},\ \frac{i-3k}{3},\ \frac{6k-i}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+9}{3})$ \\
+$v_i v_{i+3}$ & $3k+10 \le i \le 6k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+1}{3},\ \frac{6k-i+7}{3})$ \\
+$v_i v_{i+3}$ & $6k-1 \le i \le 6k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{9k-i+2}{3},\ k+1,\ 3,\ \frac{6k-i+11}{3},\ 0)$ \\
+$v_i v_{i+3}$ & $i = 6k+1$ & $(k+1,\ k+1,\ 3,\ 0,\ 3)$ \\
+\hline
+\end{longtable}
+\clearpage
+\begin{longtable}{lll}
+\caption{Representations with respect to the $5$-set, $n\equiv 5 \pmod 6$. $W=\{u_{3k+1}, u_{3k+5}, v_{1}, v_{2}, v_{6k+5}\}$, $n=6k+5$.}\label{tab:W55}\\
+\hline Element & Range & $r(\cdot\,|\,W)$ \\ \hline
+\endfirsthead
+\hline Element & Range & $r(\cdot\,|\,W)$ \\ \hline
+\endhead
+$u_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ k+3,\ \frac{i+2}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+11}{3},\ \frac{3k-i+11}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{i+7}{3})$ \\
+$u_i$ & $3 \le i \le 6,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+9}{3},\ k+3,\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i$ & $7 \le i \le 3k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ \frac{3k-i+13}{3},\ \frac{i+2}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i$ & $9 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+9}{3},\ \frac{3k-i+15}{3},\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+5}{3},\ \frac{3k-i+11}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ k+2)$ \\
+$u_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+3}{3},\ 3k-i+5,\ k+2,\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i$ & $3k+1 \le i \le 3k+4,\ i \equiv 1 \pmod{3}$ & $(i-3k-1,\ 3k-i+5,\ \frac{i+2}{3},\ k+2,\ k+2)$ \\
+$u_i$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ i-3k-5,\ \frac{6k-i+11}{3},\ k+2,\ \frac{6k-i+8}{3})$ \\
+$u_i$ & $3k+6 \le i \le 3k+9,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+9}{3},\ i-3k-5,\ \frac{6k-i+9}{3},\ \frac{6k-i+12}{3},\ \frac{6k-i+12}{3})$ \\
+$u_i$ & $3k+7 \le i \le 3k+10,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ i-3k-5,\ \frac{6k-i+13}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+10}{3})$ \\
+$u_i$ & $3k+11 \le i \le 6k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{i-3k+1}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+14}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i$ & $3k+12 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+9}{3},\ \frac{i-3k+3}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+12}{3},\ \frac{6k-i+12}{3})$ \\
+$u_i$ & $3k+13 \le i \le 6k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{i-3k+5}{3},\ \frac{6k-i+13}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+10}{3})$ \\
+$u_i$ & $i = 6k+3$ & $(k+3,\ k+2,\ 2,\ 3,\ 3)$ \\
+$u_i$ & $i = 6k+5$ & $(k+3,\ k+2,\ 2,\ 3,\ 1)$ \\
+$v_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ k+2,\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{i+8}{3})$ \\
+$v_i$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+8}{3},\ \frac{3k-i+8}{3},\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{i+10}{3})$ \\
+$v_i$ & $3 \le i \le 6,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+6}{3},\ k+2,\ \frac{i+9}{3},\ \frac{i+6}{3},\ \frac{i}{3})$ \\
+$v_i$ & $7 \le i \le 3k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ \frac{3k-i+10}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{i+8}{3})$ \\
+$v_i$ & $9 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+6}{3},\ \frac{3k-i+12}{3},\ \frac{i+9}{3},\ \frac{i+6}{3},\ \frac{i}{3})$ \\
+$v_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+8}{3},\ \frac{3k-i+8}{3},\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{6k-i+5}{3})$ \\
+$v_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{3k-i+12}{3},\ \frac{6k-i+6}{3},\ \frac{i+6}{3},\ \frac{i}{3})$ \\
+$v_i$ & $3k+1 \le i \le 3k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+2}{3},\ \frac{3k-i+10}{3},\ \frac{i-1}{3},\ \frac{6k-i+7}{3},\ k+3)$ \\
+$v_i$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{i-3k-2}{3},\ \frac{6k-i+14}{3},\ \frac{i-2}{3},\ \frac{6k-i+5}{3})$ \\
+$v_i$ & $3k+6 \le i \le 3k+9,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{i-3k}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+15}{3},\ k+2)$ \\
+$v_i$ & $3k+7 \le i \le 3k+10,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+2}{3},\ \frac{i-3k+2}{3},\ k+2,\ \frac{6k-i+7}{3},\ \frac{6k-i+13}{3})$ \\
+$v_i$ & $3k+11 \le i \le 6k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{i-3k-2}{3},\ \frac{6k-i+14}{3},\ \frac{6k-i+17}{3},\ \frac{6k-i+5}{3})$ \\
+$v_i$ & $3k+12 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{i-3k}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+15}{3},\ \frac{6k-i+15}{3})$ \\
+$v_i$ & $3k+13 \le i \le 6k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+2}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+16}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+13}{3})$ \\
+$v_i$ & $i = 6k+3$ & $(k+2,\ k+1,\ 1,\ 4,\ 4)$ \\
+$v_i$ & $i = 6k+5$ & $(k+2,\ k+1,\ 3,\ 4,\ 0)$ \\
+$u_i u_{i+1}$ & $1 \le i \le 3k-5,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+7}{3},\ \frac{3k-i+10}{3},\ \frac{i+2}{3},\ \frac{i+2}{3},\ \frac{i+5}{3})$ \\
+$u_i u_{i+1}$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+8}{3},\ \frac{3k-i+11}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{i+4}{3})$ \\
+$u_i u_{i+1}$ & $3 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+6}{3},\ \frac{3k-i+12}{3},\ \frac{i+3}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i u_{i+1}$ & $3k-2 \le i \le 3k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{6k-2i+2}{3},\ \frac{3k-i+10}{3},\ \frac{i+2}{3},\ \frac{i+2}{3},\ \frac{i+5}{3})$ \\
+$u_i u_{i+1}$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(1,\ \frac{6k-2i+10}{3},\ \frac{i+4}{3},\ \frac{i+1}{3},\ \frac{i+4}{3})$ \\
+$u_i u_{i+1}$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{2i-6k}{3},\ 3k-i+4,\ \frac{i+3}{3},\ \frac{i+3}{3},\ \frac{i+3}{3})$ \\
+$u_i u_{i+1}$ & $3k+4 \le i \le 3k+10,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{2i-6k-8}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+7}{3})$ \\
+$u_i u_{i+1}$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ i-3k-5,\ \frac{6k-i+8}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i u_{i+1}$ & $3k+6 \le i \le 3k+9,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ i-3k-5,\ \frac{6k-i+9}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+9}{3})$ \\
+$u_i u_{i+1}$ & $3k+11 \le i \le 6k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+7}{3},\ \frac{i-3k+1}{3},\ \frac{6k-i+8}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+8}{3})$ \\
+$u_i u_{i+1}$ & $3k+12 \le i \le 6k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{i-3k+3}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+9}{3},\ \frac{6k-i+9}{3})$ \\
+$u_i u_{i+1}$ & $3k+13 \le i \le 6k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+5}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+10}{3},\ \frac{6k-i+7}{3})$ \\
+$u_i u_{i+1}$ & $i = 6k+5$ & $(k+2,\ k+2,\ 1,\ 2,\ 1)$ \\
+$u_i v_i$ & $1 \le i \le 4,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ k+2,\ \frac{i-1}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i v_i$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+8}{3},\ \frac{3k-i+8}{3},\ \frac{i+4}{3},\ \frac{i-2}{3},\ \frac{i+7}{3})$ \\
+$u_i v_i$ & $3 \le i \le 6,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+6}{3},\ k+2,\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{i}{3})$ \\
+$u_i v_i$ & $7 \le i \le 3k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+4}{3},\ \frac{3k-i+10}{3},\ \frac{i-1}{3},\ \frac{i+5}{3},\ \frac{i+5}{3})$ \\
+$u_i v_i$ & $9 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+6}{3},\ \frac{3k-i+12}{3},\ \frac{i+6}{3},\ \frac{i+3}{3},\ \frac{i}{3})$ \\
+$u_i v_i$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+5}{3},\ \frac{3k-i+8}{3},\ \frac{i+4}{3},\ \frac{i-2}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i v_i$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+3}{3},\ \frac{6k-2i+12}{3},\ \frac{6k-i+6}{3},\ \frac{i+3}{3},\ \frac{i}{3})$ \\
+$u_i v_i$ & $3k+1 \le i \le 3k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{2i-6k-2}{3},\ \frac{6k-2i+11}{3},\ \frac{i-1}{3},\ \frac{6k-i+7}{3},\ k+2)$ \\
+$u_i v_i$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{2i-6k-10}{3},\ \frac{6k-i+11}{3},\ \frac{i-2}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i v_i$ & $3k+6 \le i \le 3k+9,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{2i-6k-9}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+12}{3},\ \frac{6k-i+12}{3})$ \\
+$u_i v_i$ & $3k+7 \le i \le 3k+10,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+2}{3},\ \frac{2i-6k-8}{3},\ \frac{6k-i+13}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+10}{3})$ \\
+$u_i v_i$ & $3k+11 \le i \le 6k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{i-3k-2}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+14}{3},\ \frac{6k-i+5}{3})$ \\
+$u_i v_i$ & $3k+12 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{i-3k}{3},\ \frac{6k-i+6}{3},\ \frac{6k-i+12}{3},\ \frac{6k-i+12}{3})$ \\
+$u_i v_i$ & $3k+13 \le i \le 6k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+2}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+13}{3},\ \frac{6k-i+7}{3},\ \frac{6k-i+10}{3})$ \\
+$u_i v_i$ & $i = 6k+3$ & $(k+2,\ k+1,\ 1,\ 3,\ 3)$ \\
+$u_i v_i$ & $i = 6k+5$ & $(k+2,\ k+1,\ 2,\ 3,\ 0)$ \\
+$v_i v_{i+3}$ & $1 \le i \le 3k-2,\ i \equiv 1 \pmod{3}$ & $(\frac{3k-i+1}{3},\ \frac{3k-i+7}{3},\ \frac{i-1}{3},\ \frac{i+8}{3},\ \frac{i+8}{3})$ \\
+$v_i v_{i+3}$ & $2 \le i \le 3k-4,\ i \equiv 2 \pmod{3}$ & $(\frac{3k-i+5}{3},\ \frac{3k-i+5}{3},\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{i+10}{3})$ \\
+$v_i v_{i+3}$ & $3 \le i \le 3k-3,\ i \equiv 0 \pmod{3}$ & $(\frac{3k-i+3}{3},\ \frac{3k-i+9}{3},\ \frac{i+9}{3},\ \frac{i+6}{3},\ \frac{i}{3})$ \\
+$v_i v_{i+3}$ & $3k-1 \le i \le 3k+2,\ i \equiv 2 \pmod{3}$ & $(2,\ \frac{3k-i+5}{3},\ \frac{i+7}{3},\ \frac{i-2}{3},\ \frac{6k-i+2}{3})$ \\
+$v_i v_{i+3}$ & $3k \le i \le 3k+3,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{3k-i+9}{3},\ \frac{6k-i+3}{3},\ \frac{i+6}{3},\ \frac{i}{3})$ \\
+$v_i v_{i+3}$ & $3k+1 \le i \le 3k+4,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+2}{3},\ 2,\ \frac{i-1}{3},\ \frac{6k-i+4}{3},\ \frac{6k-i+10}{3})$ \\
+$v_i v_{i+3}$ & $3k+5 \le i \le 3k+8,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{i-3k-2}{3},\ \frac{6k-i+11}{3},\ \frac{i-2}{3},\ \frac{6k-i+2}{3})$ \\
+$v_i v_{i+3}$ & $3k+6 \le i \le 6k,\ i \equiv 0 \pmod{3}$ & $(\frac{i-3k+6}{3},\ \frac{i-3k}{3},\ \frac{6k-i+3}{3},\ \frac{6k-i+12}{3},\ \frac{6k-i+12}{3})$ \\
+$v_i v_{i+3}$ & $3k+7 \le i \le 6k+1,\ i \equiv 1 \pmod{3}$ & $(\frac{i-3k+2}{3},\ \frac{i-3k+2}{3},\ \frac{6k-i+13}{3},\ \frac{6k-i+4}{3},\ \frac{6k-i+10}{3})$ \\
+$v_i v_{i+3}$ & $3k+11 \le i \le 6k+2,\ i \equiv 2 \pmod{3}$ & $(\frac{i-3k+4}{3},\ \frac{i-3k-2}{3},\ \frac{6k-i+11}{3},\ \frac{6k-i+14}{3},\ \frac{6k-i+2}{3})$ \\
+$v_i v_{i+3}$ & $i = 6k+3$ & $(k+1,\ k+1,\ 0,\ 3,\ 3)$ \\
+$v_i v_{i+3}$ & $i = 6k+4$ & $(k+2,\ k+2,\ 3,\ 0,\ 3)$ \\
+$v_i v_{i+3}$ & $i = 6k+5$ & $(k+1,\ k+1,\ 3,\ 3,\ 0)$ \\
+\hline
+\end{longtable}

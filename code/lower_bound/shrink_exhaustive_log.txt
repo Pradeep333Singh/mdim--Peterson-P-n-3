@@ -1,0 +1,25 @@
+p=1 k=13 w=u_1: admissible b: 29 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=13 w=v_1: admissible b: 29 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=14 w=u_1: admissible b: 35 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=14 w=v_1: admissible b: 35 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=15 w=u_1: admissible b: 41 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=15 w=v_1: admissible b: 41 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=20 w=u_1: admissible b: 71 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=1 k=20 w=v_1: admissible b: 71 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/44 break the correspondence
+p=2 k=13 w=u_1: admissible b: 28 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/46 break the correspondence
+p=2 k=13 w=v_1: admissible b: 28 (= n - 2(24+p)), mismatches 0; non-admissible b: 20/46 break the correspondence
+p=2 k=14 w=u_1: admissible b: 34 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/46 break the correspondence
+p=2 k=14 w=v_1: admissible b: 34 (= n - 2(24+p)), mismatches 0; non-admissible b: 20/46 break the correspondence
+p=2 k=15 w=u_1: admissible b: 40 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/46 break the correspondence
+p=2 k=15 w=v_1: admissible b: 40 (= n - 2(24+p)), mismatches 0; non-admissible b: 20/46 break the correspondence
+p=2 k=20 w=u_1: admissible b: 70 (= n - 2(24+p)), mismatches 0; non-admissible b: 22/46 break the correspondence
+p=2 k=20 w=v_1: admissible b: 70 (= n - 2(24+p)), mismatches 0; non-admissible b: 20/46 break the correspondence
+p=5 k=13 w=u_1: admissible b: 25 (= n - 2(24+p)), mismatches 0; non-admissible b: 23/52 break the correspondence
+p=5 k=13 w=v_1: admissible b: 25 (= n - 2(24+p)), mismatches 0; non-admissible b: 26/52 break the correspondence
+p=5 k=14 w=u_1: admissible b: 31 (= n - 2(24+p)), mismatches 0; non-admissible b: 23/52 break the correspondence
+p=5 k=14 w=v_1: admissible b: 31 (= n - 2(24+p)), mismatches 0; non-admissible b: 26/52 break the correspondence
+p=5 k=15 w=u_1: admissible b: 37 (= n - 2(24+p)), mismatches 0; non-admissible b: 23/52 break the correspondence
+p=5 k=15 w=v_1: admissible b: 37 (= n - 2(24+p)), mismatches 0; non-admissible b: 26/52 break the correspondence
+p=5 k=20 w=u_1: admissible b: 67 (= n - 2(24+p)), mismatches 0; non-admissible b: 23/52 break the correspondence
+p=5 k=20 w=v_1: admissible b: 67 (= n - 2(24+p)), mismatches 0; non-admissible b: 26/52 break the correspondence
+exhaustive single-vertex shrinking test passed
